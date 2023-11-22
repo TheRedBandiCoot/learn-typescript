@@ -1,0 +1,67 @@
+Table Of Content (TypeScriptSimplified)
+01 - Setup
+	01 - What Is TypeScript + Course Introduction
+    02 - Why Use TypeScript
+    03 - How To Initialize A TypeScript Project
+    04 - Using A Bundler
+    05 - Understanding The TSConfig
+02 - Basic Types
+    06 - Assigning Types And Type Inference
+    07 - Array Type
+    08 - Any Type
+    09 - Object Basics
+    10 - Types Vs Interfaces
+03 - Function Types
+    11 - Defining Functions
+    12 - Void Type
+    13 - Optional Parameters
+    14 - Destructured And Rest Parameters
+    15 - Typing Variables As Functions
+04 - Type Modifiers
+    16 - Unions
+    17 - Intersections
+    18 - readonly
+    19 - keyof
+    20 - typeof
+    21 - Index Types
+05 - Advanced Types
+    22 - As Const And Enums
+    23 - Tuples
+    24 - Generics
+    25 - Async Functions
+06 - Built In Types
+    26 - Pick And Omit
+    27 - Partial And Required
+    28 - ReturnType And Parameters
+    29 - Record
+    30 - Readonly
+    31 - Awaited
+07 - Type Narrowing
+    32 - Basic Type Guards
+    33 - Never Type
+    34 - Unknown Type
+    35 - As Casting
+    36 - Satisfies
+    37 - Discriminated Union
+    38 - Function Overloads
+    39 - Type Predicate Function
+08 - Real World TypeScript
+    40 - Debugging
+    41 - Importing Types
+    42 - Declaration Files
+    43 - Todo List Project Introduction
+    44 - Todo List Project Walkthrough
+    45 - Migrate JS To TS Project Introduction
+    46 - Migrate JS To TS Project Walkthrough
+09 - Conclusion
+    47 - What's Next
+10 - BONUS: Typing React Code
+    01 - PropTypes
+    02 - TypeScript Setup And Props
+    03 - useState
+    04 - useRef
+    05 - useReducer
+    06 - useContext
+    07 - Generic Components
+    08 - Google Calendar Clone Introduction
+    09 - Google Calendar Clone Walkthrough
