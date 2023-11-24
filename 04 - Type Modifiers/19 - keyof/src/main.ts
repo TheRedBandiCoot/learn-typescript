@@ -8,6 +8,6 @@ function getValue(key: keyof Person, person: Person) {
   return person[key];
 }
 
-const data = getValue('age', { name: 'john', age: 25 });
+const age = getValue('age', { name: 'john', age: 25 });
 
-console.log(data);
+console.log(age);

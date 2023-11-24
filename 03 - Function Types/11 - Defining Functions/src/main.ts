@@ -19,3 +19,4 @@ function personName(person: { name: string }) {
 const person = { name: 'Kyle', age: 26 };
 
 personName(person);
+personName({ name: 'Kyle', age: 26 });
