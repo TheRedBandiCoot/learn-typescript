@@ -59,3 +59,36 @@ const arr: [string, number | boolean][] = [
 
 const newArr = arrToObj(arr);
 newArr;
+
+type Todo = {
+  title: string;
+  priority: 'High' | 'Normal' | 'Low';
+  isCompleted: boolean;
+  description?: string;
+  dueData: Date | string;
+};
+
+function extendTodoOptional<T = Todo>(todo: T, key: keyof T) {
+  return todo[key];
+}
+const a = extendTodoOptional({ priority: 'High', title: 'DAd' }, 'title');
+console.log(a);
+
+function extendTodoRequiredDefault<T = Todo, Key extends keyof T = keyof T>(key: Key, todo: T) {
+  let p1, p2, p3;
+  switch (todo[key]) {
+    case 'High':
+      p1 = todo[key];
+      break;
+    case 'Normal':
+      p2 = todo[key];
+      break;
+    case 'Low':
+      p3 = todo[key];
+      break;
+  }
+  return p1 || p2 || p3;
+}
+
+const b = extendTodoRequiredDefault('priority', { title: 'dsaas', priority: 'High' });
+b;
