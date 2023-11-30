@@ -1,19 +1,3 @@
-
-<style>
-  summary .head{
-    display: inline-block;
-  }
-  li{
-    list-style:none
-  }
-  ul > *{
-    border-left:3px solid limegreen;
-    padding-left: 1rem;
-    padding-bottom: 0.5rem;
-    margin: 1rem 0;
-  }
-</style>
-
 <details>
   <summary><h2 class="head">Table Of Content (TypeScriptSimplified)</h2></summary><blockquote>
     <details><summary>01 - Setup</summary><blockquote>
