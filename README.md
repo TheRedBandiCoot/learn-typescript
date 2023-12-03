@@ -1,4 +1,3 @@
-
 <details>
   <summary><h2>Table Of Content (TypeScriptSimplified)</h2></summary><blockquote>
     <details><summary>✅ 01 - Setup</summary><blockquote>
@@ -87,7 +86,7 @@
             <li>[x] 47 - What's Next</li>
           </ul>
         </blockquote></details>
-  <details><summary>⬜ 10 - BONUS: Typing React Code</summary><blockquote>
+  <details><summary>✅ 10 - BONUS: Typing React Code</summary><blockquote>
       <ul>
         <li>[x] 01 - PropTypes</li>
         <li>[x] 02 - TypeScript Setup And Props</li>
@@ -96,8 +95,8 @@
         <li>[x] 05 - useReducer</li>
         <li>[x] 06 - useContext</li>
         <li>[x] 07 - Generic Components</li>
-        <li>[ ] 08 - Google Calendar Clone Introduction</li>
-        <li>[ ] 09 - Google Calendar Clone Walkthrough</li>
+        <li>[x] 08 - Google Calendar Clone Introduction</li>
+        <li>[x] 09 - Google Calendar Clone Walkthrough</li>
       </ul>
     </blockquote></details>
 </blockquote>
@@ -108,9 +107,7 @@
 ##### This is a trick I have been using for a while and really love it. One thing to note about this is that normal TS utility types like `Omit` and `Pick` will not work with Unions so you need to write your own version of these utils that look like this.
 
 ```ts
-export type UnionOmit<T, K extends string | number | symbol> = T extends unknown
-  ? Omit<T, K>
-  : never;
+export type UnionOmit<T, K extends string | number | symbol> = T extends unknown ? Omit<T, K> : never;
 ```
 
 ## viktormalmedal265
